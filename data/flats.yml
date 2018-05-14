@@ -1,0 +1,21 @@
+Monica-Nabais:
+  name: "Monica's penthouse"
+  description: "Fancy place in Dubai"
+  city_name: "Dubai"
+  city_slug: "dubai"
+  wifi: false
+  rating: 5
+catarinacota:
+  name: "Catarina's castle"
+  description: "Little castle in France"
+  city_name: "France"
+  city_slug: "france"
+  wifi: true
+  rating: 5
+mariacastro96:
+  name: "Maria's shed"
+  description: "It has a roof"
+  city_name: "Lisbon"
+  city_slug: "lisbon"
+  wifi: true
+  rating: 2
