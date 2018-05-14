@@ -1,0 +1,10 @@
+<h1 class= "text-center">Best team ever!</h1>
+
+<ul class="list-inline text-center">
+  <% %w(Monica-Nabais catarinacota).each do |username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{username}", class: 'img-circle img-size' %>
+      <h3><%=username%></h3>
+    </li>
+  <% end %>
+</ul>
