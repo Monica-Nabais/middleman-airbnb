@@ -7,21 +7,21 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-f67b901b.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-f67b901b.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo" />
+    <img src="../images/logo-acc9c0ec.png" alt="logo" />
   </a>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <a href="../team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Host</a>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="#" class="navbar-wagon-item navbar-wagon-link">Messages</a>
@@ -54,18 +54,30 @@
   </div>
 </div>
 
-    <h1 class= "text-center">Best team ever!</h1>
+    <!-- source/flats/show.html.erb -->
 
-<ul class="list-inline text-center">
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/Monica-Nabais" class="img-circle img-size" alt="Monica nabais" />
-      <h3>Monica-Nabais</h3>
-    </li>
-    <li>
-      <img src="https://kitt.lewagon.com/placeholder/users/catarinacota" class="img-circle img-size" alt="Catarinacota" />
-      <h3>catarinacota</h3>
-    </li>
-</ul>
+<!-- Access data.flats with owner's name as key -->
+
+<!-- Inject flat data in template -->
+<div class="flat-header" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../images/lisbon-6071f7d8.jpg');">
+</div>
+<div class="flat">
+  <div class="flat-name text-center">
+    <img src="https://kitt.lewagon.com/placeholder/users/mariacastro96" class="img-circle img-size-small" alt="Mariacastro96" />
+    <p>Maria's shed</p>
+  </div>
+  <div class="flat-description">
+    <h1>It has a roof</h1>
+    <p>Lisbon</p>
+      <i class="fa fa-star" style="color: #ffb400"></i>
+      <i class="fa fa-star" style="color: #ffb400"></i>
+
+      <i class="fa fa-star" style="color: grey"></i>
+      <i class="fa fa-star" style="color: grey"></i>
+      <i class="fa fa-star" style="color: grey"></i>
+  </div>
+</div>
+
 
     <div class="footer">
   <div class="footer-links">
